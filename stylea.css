@@ -1,0 +1,125 @@
+
+/* 
+  Global Styles 
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+/* 
+  Header Styles 
+*/
+
+header {
+  background-color:#0b3775;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:flex-end;
+}
+
+nav li {
+  margin-right: 40px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 
+  About Us Styles 
+*/
+
+#about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-image {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+  Meet the Team Styles 
+*/
+
+#meet-the-team {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  /*border-radius: 50%;*/
+  margin: 10px;
+}
+
+/* 
+  Testimonials Styles 
+*/
+
+#testimonials {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.testimonial {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+  Footer Styles 
+*/
+
+footer {
+  background-color: #0b3775;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+

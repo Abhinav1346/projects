@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image3.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+header {
+    background-color: #0b3775;
+    color: #cb9a9a;
+   /* padding: 20px;*/
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+    
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(17, 67, 216, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#translation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#translation-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#translation-form textarea {
+    padding: 10px;
+    height: 100px;
+}
+
+#translation-form button {
+    background-color: #0b3775;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#consultation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#consultation-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#consultation-form button {
+    background-color: #0b3775;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.img{
+    width: 60px;
+    justify-content:left;
+    margin-left: 10px;
+    margin-right: -25px;
+    
+}
+.CT{
+    margin-right: 600px;
+    color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.chat-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-box {
+    padding: 20px;
+}
+
+#chat-messages {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+#chat-input {
+    width: 75%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#send-btn {
+    width: 20%;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    color: azure;
+}
+
+
+

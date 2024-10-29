@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Payment</title>
+    <link rel="stylesheet" href="stylepay.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="front.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contect.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="payment">
+        <h1>Payment Details</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+            </div>
+            <div class="form-group">
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state">
+            </div>
+                    <!-- QR Code Container -->
+        <div class="qr-container">
+            <img src="qr-code.png" alt="QR Code">
+            <p>Scan to pay with QR</p>
+        </div>
+        <br></br> OR <br></br>
+            <div class="form-group">
+                <label for="card-type">Card Type:</label>
+                <select id="card-type" name="card-type">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="amex">Amex</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number">
+            </div>
+            <div class="form-group">
+                <label for="expiration-date">Expiration Date:</label>
+                <input type="date" id="expiration-date" name="expiration-date">
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv">
+            </div>
+            <button type="submit">Pay Now</button>
+            <button><a href="/feedback.html">gif feedback</a></button>
+        </form>
+    </section>
+    
+    <section class="premium ">
+        <h1>premium</h1>
+        <p>services: <span id="services"></span></p>
+        <p>Date: <span id="date"></span></p>
+        <p>Time: <span id="time"></span></p>
+        <p>Number of paitent <span id="guests"></span></p>
+        <p>Total Amount: <span id="amount"></span></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Language Translator for Doctors and Patients</p>
+    </footer>
+</body>
+</html>

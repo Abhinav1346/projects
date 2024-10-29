@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup - Language Translator for Doctors and Patients</title>
+    <link rel="stylesheet" href="stylel.css">
+</head>
+<body>
+    <div class="login-signup-container">
+        <h1>Login/Signup</h1>
+        <div class="tab-container">
+            <button class="tab-button" onclick="openTab('login')">Login</button>
+            <button class="tab-button" onclick="openTab('signup')">Signup</button>
+        </div>
+        <div id="login-tab" class="tab-content">
+            <form action="login-process.html" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Login">
+            </form>
+            <p>Don't have an account? <a href="#" onclick="openTab('signup')">Sign up</a></p>
+        </div>
+        <div id="signup-tab" class="tab-content" style="display:none;">
+            <form action="signup-process.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password"><br><br>
+                <input type="submit" value="Signup">
+            </form>
+            <p>Already have an account? <a href="#" onclick="openTab('login')">Login</a></p>
+        </div>
+        <div id="success-tab" class="tab-content" style="display:none;">
+            <h1>Login/Signup Successful!</h1>
+            <p>Welcome, <?php echo $_SESSION['username']; ?>!</p>
+            <p>You are now logged in.</p>
+            <a href="index.html">Go to Homepage</a>
+        </div>
+    </div>
+
+    <script>
+        function openTab(tabName) {
+            var i;
+            var tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            document.getElementById(tabName + "-tab").style.display = "block";
+        }
+    </script>
+</body>
+</html>
+
+
