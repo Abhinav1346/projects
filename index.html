@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedTranslate</title>
+    <link rel="stylesheet" href="front.css">
+</head>
+<body background="image3.jpg">
+    <header>
+        <nav>
+            <ul>
+                <li><img src="./image1.jpg" alt="" class="img"></li>
+                <li class="CT">CLINIGLOSSA</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contect.html">Contact</a></li>
+                <li><a href="doctorlist.html">Doctor's List</a></li>
+                <li><a href="paitent.html">Patients'List</a></li>
+                <li><a href="login.html">Login/Signup</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        </div>
+        <section id="translation-section">
+            <h2>Language Translation</h2>
+            <form id="translation-form">
+                <select id="source-language" name="source-language">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="ru">Russian</option>
+                    <option value="Hn">Hindi</option>
+                    <option value="Ur">Urdu</option>
+                    <option value="Gm">German</option>
+                    <option value="It">Italian</option>
+                    <option value="Kr">Korean</option>
+                    <option value="Tl">Tamil</option>
+                    <option value="Tg">Telugu</option>
+                    <option value="Mr">Marathi</option>
+                </select>
+                <select id="target-language" name="target-language">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="ru">Russian</option>
+                    <option value="Hn">Hindi</option>
+                    <option value="Ur">Urdu</option>
+                    <option value="Gm">German</option>
+                    <option value="It">Italian</option>
+                    <option value="Kr">Korean</option>
+                    <option value="Tl">Tamil</option>
+                    <option value="Tg">Telugu</option>
+                    <option value="Mr">Marathi</option>
+                </select>
+                <textarea id="text-to-translate" name="text-to-translate"></textarea>
+                <button id="translate-button">Translate</button>
+                <div id="translated-text"></div>
+            </form>
+        </section>
+        <section id="consultation-section">
+            <h2>Consultation</h2>
+            <form id="consultation-form">
+                <input type="text" id="Patient-name" name="Patient-name" placeholder="Patient Name">
+                <input type="text" id="Doctor-name" name="Doctor-name" placeholder="Doctor Name">
+                <button id="start-consultation-button">Start Consultation</button>
+            </form>
+        </section>
+        <a href="chat.html"></a>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>Chatbot</h2>
+            </div>
+            <div class="chat-box">
+                <div class="chat-messages" id="chat-messages"></div>
+                <input type="text" id="chat-input" placeholder="Type a message...">
+                <button id="send-btn"class="send"><a href="chat.html">Send</a></button>
+            </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
